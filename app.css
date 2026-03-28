@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-bar ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  border: 2px;
+}
+
+.res-card {
+  height: fit-content;
+  width: 18.5vw;
+  display: inline-block;
+  margin: 0 10px 20px 0;
+  padding: 16px;
+
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.res-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.res-logo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.filter-btn {
+  margin: 10px;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* or space-between, center */
+  gap: 10px; /* nice alternative to margin for spacing */
+}
+
+.shimmer-card {
+  /* height: 300px;
+  width: 150px;
+  background-color: #f0f0f0; */
+  height: 30vh;
+  width: 18.5vw;
+  display: inline-block;
+  margin: 0 10px 20px 0;
+  padding: 16px;
+
+  background-color: rgb(226, 222, 222);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login {
+  padding: 10px 20px;
+  background-color: #f2a217; /* soft orange */
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px; /* Slightly less rounded */
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.header {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: rgb(255, 199, 94);
+}
+.app {
+  margin-top: 0;
+  padding-top: 0;
+}
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 218, 187);
+}
+.about {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 218, 187);
+  height: 100%;
+}
+
+.contact {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 218, 187);
+}
+
+.menu{
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
